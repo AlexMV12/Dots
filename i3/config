@@ -41,6 +41,7 @@ bindsym $mod+Shift+q kill
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+#bindsym $mod+d exec --no-startup-id rofi -show run
 
 # change focus
 bindsym $mod+j focus left
@@ -167,7 +168,7 @@ exec_always --no-startup-id pamac-tray
 bindsym Print exec gnome-screenshot -i
 bindsym Mod1+c exec chromium -no-default-browser-check
 bindsym Mod1+s exec spotify
-bindsym Mod1+f exec nautilus
+bindsym Mod1+f exec thunar
 bindsym Mod1+w exec --no-startup-id /opt/Whatsapp/WhatsApp
 
 # Multimedia controls
