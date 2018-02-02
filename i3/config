@@ -170,6 +170,7 @@ bindsym Mod1+c exec chromium -no-default-browser-check
 bindsym Mod1+s exec spotify
 bindsym Mod1+f exec thunar
 bindsym Mod1+w exec --no-startup-id /opt/Whatsapp/WhatsApp
+bindsym Mod1+t exec telegram-desktop
 
 # Multimedia controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +5%
