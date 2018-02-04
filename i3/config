@@ -163,7 +163,7 @@ exec_always --no-startup-id imwheel -b 45
 exec_alyaws --no-startup-id megasync
 exec_always --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec_always --no-startup-id pamac-tray
-exec_always --no-startup-id compton --opacity-rule '100:window_type = "dock" && class_g = i3bar"' --config ~/Documenti/Dots/Compton/compton.conf -b
+exec_always --no-startup-id compton --opacity-rule '100:window_type = "dock" && class_g = "i3bar"' --config ~/Documenti/Dots/Compton/compton.conf -b
 
 # Bindings for apps
 bindsym Print exec gnome-screenshot -i
